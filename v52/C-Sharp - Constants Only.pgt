@@ -1,0 +1,26 @@
+##LANGUAGE 'C#'
+##TEMPLATE-NAME 'Constants Only'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Devin Cook' 
+##FILE-EXTENSION 'cs'
+##NOTES
+This template creates to set of C# enumerated constants for the grammar's symbols and rules.
+##END-NOTES
+##ID-CASE UPPERCASE
+##ID-SEPARATOR '_'
+enum SymbolIndex : int
+{
+##SYMBOLS
+##DELIMITER ','
+   @%ID.Padded% = %Value.Padded%%Delimiter% // %Description%
+##END-SYMBOLS
+};
+
+enum ProdIndex : int
+{
+##RULES
+##DELIMITER ','
+   @%ID.Padded% = %Value.Padded%%Delimiter% // %Description%
+##END-RULES
+};

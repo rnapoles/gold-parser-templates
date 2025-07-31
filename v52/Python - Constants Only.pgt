@@ -1,0 +1,26 @@
+##LANGUAGE 'Python'
+##TEMPLATE-NAME 'Constants Only'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Milosz A. Krajewski' 
+##FILE-EXTENSION 'py'
+##NOTES
+This template creates Python definition of constants for the grammar's symbols and rules.
+##END-NOTES
+##ID-CASE UPPERCASE
+##ID-SEPARATOR '_'
+##ID-SYMBOL-PREFIX 'Sym'
+##ID-RULE-PREFIX 'Prod'
+# Auto generated file by GOLD Parser Builder
+
+#---- Symbols ---------------------------------------------------------------
+
+##SYMBOLS
+%ID.Padded% = %Value.Padded% ## %Description%
+##END-SYMBOLS
+
+#---- Rules -----------------------------------------------------------------
+
+##RULES
+%ID.Padded% = %Value.Padded% ## %Description%
+##END-RULES

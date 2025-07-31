@@ -1,0 +1,26 @@
+##LANGUAGE 'Delphi'
+##TEMPLATE-NAME 'Constants Only'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Devin Cook' 
+##FILE-EXTENSION 'pas'
+##NOTES
+This template creates to set of Delphi enumerated constants for the grammar's symbols and rules.
+##END-NOTES
+##ID-CASE UPPERCASE
+##ID-SEPARATOR '_'
+##ID-SYMBOL-PREFIX 'Syn'
+##ID-RULE-PREFIX 'Prod'
+type SymbolConstants = (
+##SYMBOLS
+##DELIMITER ','
+   %ID.Padded% = %Value.Padded%%Delimiter% (* %Description% *)
+##END-SYMBOLS
+);
+
+type RuleConstants = (
+##RULES
+##DELIMITER ','
+   %ID.Padded% = %Value.Padded%%Delimiter% (* %Description% *)
+##END-RULES
+);

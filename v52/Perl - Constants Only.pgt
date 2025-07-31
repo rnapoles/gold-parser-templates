@@ -1,0 +1,24 @@
+##LANGUAGE 'Perl'
+##TEMPLATE-NAME 'Constants Only'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Devin Cook' 
+##FILE-EXTENSION 'pl'
+##NOTES
+This template creates to set of Perl enumerated constants for the grammar's symbols and rules.
+##END-NOTES
+##ID-CASE UPPERCASE
+##ID-SEPARATOR '_'
+##ID-SYMBOL-PREFIX 'Sym'
+##ID-RULE-PREFIX 'Prod'
+use enum SymbolConstants (
+##SYMBOLS
+   %ID.Padded% = %Value.Padded% # %Description%
+##END-SYMBOLS
+);
+
+use enum RuleConstants (
+##PRODUCTIONS
+   %ID.Padded% = %Value.Padded% # %Description%
+##END-PRODUCTIONS
+);

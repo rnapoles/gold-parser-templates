@@ -1,0 +1,18 @@
+##LANGUAGE 'Text'
+##TEMPLATE-NAME 'Comma Separated Values'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Devin Cook' 
+##FILE-EXTENSION 'csv'
+##NOTES
+This template creates a simple list the enumerated constants for productions and symbols.
+##END-NOTES
+##ID-CASE Uppercase
+##ID-SEPARATOR '_'
+##SYMBOLS
+"Symbol", "%ID%", "%Value%", "%Description%"
+##END-SYMBOLS
+##PRODUCTIONS
+"Production", "%ID%", "%Value%", "%Description%"
+##END-PRODUCTIONS
+

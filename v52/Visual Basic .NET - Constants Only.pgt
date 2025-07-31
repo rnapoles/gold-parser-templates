@@ -1,0 +1,22 @@
+##LANGUAGE 'Visual Basic .NET'
+##TEMPLATE-NAME 'Constants Only'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Devin Cook' 
+##FILE-EXTENSION 'vb'
+##NOTES
+This template creates to set of Visual Basic enumerated constants for the grammar's symbols and rules.
+##END-NOTES
+##ID-CASE Propercase
+##ID-SEPARATOR '_'
+Public Enum SymbolConstants
+##SYMBOLS
+   [%ID%] = %Value% %Col:50% ' %Description%
+##END-SYMBOLS
+End Enum
+
+Public Enum ProductionConstants
+##PRODUCTIONS
+   [%ID%] = %Value% %Col:50% ' %Description%
+##END-PRODUCTIONS
+End Enum

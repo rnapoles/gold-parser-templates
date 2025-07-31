@@ -1,0 +1,22 @@
+##LANGUAGE 'COBOL'
+##TEMPLATE-NAME 'Constants Only'
+##ENGINE-NAME 'None'
+##SYSTEM-VERSION 'N/A'
+##AUTHOR 'Devin Cook' 
+##FILE-EXTENSION 'cbl'
+##NOTES
+This template creates COBOL constants for the grammar's symbols and rules.
+##END-NOTES
+##ID-CASE Propercase
+##ID-SEPARATOR '-'
+##ID-SYMBOL-PREFIX 'Symbol'
+##ID-RULE-PREFIX 'Prod'
+01 Symbol-Constants.
+##SYMBOLS
+   02 %ID.Padded% PIC 9(3) VALUE %Value%.
+##END-SYMBOLS
+
+01 Production-Constants.
+##PRODUCTIONS
+   02 %ID.Padded% PIC 9(3) VALUE %Value%.
+##END-PRODUCTIONS
