@@ -1,11 +1,7 @@
 /*
 Kessels engine for GOLD.
 
-
-
 See the "readme.txt" file.
-
-
 
 Jeroen C. Kessels
 Internet Engineer
